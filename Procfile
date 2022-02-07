@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/resource-collection.jar -Dserver.port=$PORT $JAR_OPTS
+web: java $JAVA_OPTS -jar target/resource-collection.jar $JAR_OPTS
